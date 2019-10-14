@@ -9,7 +9,7 @@ InstaBurst, a fast and interactive brute force tool that can simultaneously atta
 
 ### Installation
 ```sh
-$ git clone https://github.com/Ethical-H4CK3R/InstaBurst
+$ git clone https://github.com/nuriyadin/InstaBurst
 $ cd InstaBurst
 $ chmod +x install.sh
 $ ./install.sh
